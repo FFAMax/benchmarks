@@ -1,5 +1,6 @@
 hashcat (v6.2.5)
 
+# GTX 1080 1070 Ti
 **Using rule**
 
 `-m 22000 <file> -a 3 ?d?d?d?d?d?d?d?d --status`
