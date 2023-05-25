@@ -1,7 +1,6 @@
 hashcat (v6.2.5)
 
-# GTX 1080
-# GTX 1070 Ti
+# GTX 1080, GTX 1070 Ti
 
 **Using rule**
 
