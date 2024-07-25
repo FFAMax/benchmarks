@@ -1,9 +1,9 @@
 import time
+import hashlib
+import hmac
 
 # Define the WPA2 key math function
 def wpa2_key_math(password, ssid):
-  import hashlib
-  import hmac
   
   # Generate the PMK (Pairwise Master Key)
   pmk = hashlib.pbkdf2_hmac('sha1', password.encode('utf-8'), ssid.encode('utf-8'), 4096, 32)
