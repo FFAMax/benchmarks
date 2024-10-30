@@ -114,3 +114,12 @@ Top 10 High Cycles:
   37572 cycles: 1 times (0.00%)
   37306 cycles: 1 times (0.00%)
 ```
+
+# cpu_cache_access_timings_incremental_simple.c
+```
+clang -O0 -o cache_benchmark 1.c  && ./cache_benchmark
+Size: 16 KB, Average Access Time: 8.79 ns
+Size: 16 KB, Average Access Time: 8.84 ns
+Size: 17 KB, Average Access Time: 8.81 ns
+Size: 17 KB, Average Access Time: 8.97 ns
+```
