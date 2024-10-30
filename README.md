@@ -47,3 +47,20 @@ for name, time in times.items():
     print(f'{name}\t{time:.3f}s\t{percentage:.2f}%\t\t{times_slower:.2f}x')
 
 ```
+
+# cpu_cache_access_timings.c
+```
+bash-3.2$ cat low_cycles_percent.csv
+Size(KB),12,14,16,18,19,20,21,22,24,25
+Size_10K,0.19,5.53,24.18,18.07,0.02,4.35,0.03,9.60,5.27,2.86
+Size_20K,0.13,5.81,25.52,18.06,0.01,4.51,0.04,8.42,3.54,4.10
+Size_30K,0.07,6.38,28.77,20.28,0.00,4.91,0.02,6.64,2.65,2.46
+Size_40K,0.08,6.60,29.24,20.52,0.00,4.98,0.02,6.41,2.58,2.07
+Size_50K,0.08,5.78,26.20,18.37,0.01,4.56,0.04,7.31,2.98,4.26
+Size_60K,0.28,6.23,26.07,18.05,0.01,4.35,0.04,7.47,3.08,4.36
+Size_70K,0.36,6.11,25.65,17.66,0.01,4.21,0.03,7.29,2.92,5.16
+Size_80K,0.46,5.55,22.63,15.52,0.01,3.59,0.04,7.91,2.99,8.17
+```
+![image](https://github.com/user-attachments/assets/57817580-b244-4a88-9ae3-093ce0b845da)
+Google colab - https://colab.research.google.com/drive/1HkwFOEaR2OuYGJCeFLMTF8FmjluFeTQv?usp=sharing
+
