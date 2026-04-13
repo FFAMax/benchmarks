@@ -123,3 +123,11 @@ Size: 16 KB, Average Access Time: 8.84 ns
 Size: 17 KB, Average Access Time: 8.81 ns
 Size: 17 KB, Average Access Time: 8.97 ns
 ```
+
+# Disc
+```
+cd /tmp && \
+curl -sO https://raw.githubusercontent.com/FFAMax/benchmarks/master/cpu_cache_access_timings_v5.c && \
+gcc -O0 -Wall -o cache_benchmark cpu_cache_access_timings_v5.c && \
+./cache_benchmark
+```
